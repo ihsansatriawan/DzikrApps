@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import RootScreens from './Screens/RootScreens'
-
+import { Root } from './Config/router'
 export default class App extends Component {
   render() {
     return (
-      <RootScreens />
+      <Root />
     )
   }
 }
