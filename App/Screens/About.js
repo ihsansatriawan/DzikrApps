@@ -1,22 +1,14 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
-export default class Home extends Component {
+export default class About extends Component {
 
   render() {
-    const { navigate } = this.props.navigation;
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          About DzikrApp
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Button
-          onPress={() => navigate('About')}
-          title="Go to About"
-        />
       </View>
     );
   }
